@@ -1,0 +1,112 @@
+<html>
+<head>
+<style type="text/css">
+.sibling-fade { visibility: hidden; }
+.sibling-fade > * { visibility: visible; }
+.sibling-fade > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
+.sibling-fade:hover > * { opacity: 0.4; transform: scale(0.9); }
+.sibling-fade > *:hover { opacity: 1; transform: scale(1.2); transition-delay: 0ms, 0ms; }
+html { display: flex; height: 100%; }
+body { 
+  background: linear-gradient(#FFFFE0, #FFFFFF); /* ”wŒi?? */
+  padding: 10px;
+  max-width: 40em;
+  margin: auto;
+}
+.sibling-fade {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+/*ŽQl•¶žƒ:http://www.kokojia.com/article/21640.html*/
+/*button“IŽå—vì—p¥?Œš?žy˜a”ü‰»Žš‘ÌCaqua—p˜°?Œš‰º?“I”½Œõ??CŽ§glare?¥…»“I‚Œõ•”•ªB*/
+.button{
+  width:90px;
+  height:24px;
+  border-radius:16px;
+  -webkit-border-radius:16px;
+  -moz-border-radius:16px;
+  -o-border-radius:16px;
+  border:2px solid #ccc;
+  position:relative;
+  /*Žš˜a?žy”V?—L“_?C‰ä??ˆê‰º“à?‹——ˆ‰ð™r?˜¢??*/
+  padding:5px 16px 3px;
+  font-family:Serif;
+  font-weight:800;
+  color:#fff;
+  text-shadow:rgba(10,10,10,0.5) 1px 2px 2px;
+  text-decoration: none;
+  text-align:center;
+  vertical-align:middle;
+}
+.aqua{
+  background-color:rgba(60,132,198,0.8);
+  /*
+  background-image:-webkit-gradient(linear,0% 0%,0% 90%,from(rgba(28,91,155,0.8)),to(rgba(108,191,255,.9)));
+  background-image:-moz-linear-gradient(top,rgba(28,91,155,0.8)0%,rgba(108,191,255,.9)90%);
+  background-image:-o-linear-gradient(top,rgba(28,91,155,0.8)0%,rgba(108,191,255,.9)90%);
+  */
+  background-image:linear-gradient(to top,rgba(28,91,155,0.8)0%,rgba(108,191,255,0.9)90%);
+  border-color:#8ba2c1 #5890bf #4f93ca #768fa5;
+  /*
+  -webkit-box-shadow:rgba(66,140,240,0.5) 0px 10px 16px;
+  -moz-box-shadow:rgba(66,140,240,0.5) 0px 10px 16px;
+  -o-box-shadow:rgba(66,140,240,0.5) 0px 10px 16px;
+  */
+  box-shadow:rgba(66,140,240,0.5) 0px 10px 16px;
+
+}
+
+.circle_button{
+  width: 2em;
+  height: 2em;
+  padding: 2em;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.circle_glare{
+  transform:rotate(30deg);
+  position:absolute;
+  top:10px;
+  left:50px;
+  width: 2em;
+  height: 1em;
+  padding:1px 0;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background-color:rgba(255,255,255,0.25)
+  background-image:-webkit-gradient(linear,0% 0%,0% 95%,from(rgba(255,255,255,0.7)),to(rgba(255,255,255,0)));
+  background-image:-moz-linear-gradient(top,rgba(255,255,255,0.7)0%,rgba(255,255,255,0.7)95%);
+  background-image:-o-linear-gradient(top,rgba(255,255,255,0.7)0%,rgba(255,255,255,0.7)95%);
+  background-image:linear-gradient(to top,rgba(255,255,255,0.7)0%,rgba(255,255,255,0.7)95%);
+}
+
+.sibling-fade > * {
+  color: #EEEEE0;
+  text-decoration: none;
+  border-radius:50%;   /* div“à•”??ŒÊ“x */
+  
+}
+</style>
+</head>
+<body>
+<div>
+  <div class="button aqua circle_button sibling-fade">
+    <div class="circle_glare"></div>
+     <a href="http://www.17sucai.com/">Dummy1</a>
+  </div>
+  <div class="button aqua circle_button" style="position:absolute;left:33%; top:30%;">
+    <div class="circle_glare"></div>
+     <a href="http://www.17sucai.com/">Dummy2</a>
+  </div>
+  <div class="button aqua circle_button" style="position:absolute;left:36%; top:3%;">
+    <div class="circle_glare"></div>
+     <a href="http://www.17sucai.com/">Dummy3</a>
+  </div>
+</div>
+</body>
+</html>

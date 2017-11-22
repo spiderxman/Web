@@ -7,21 +7,11 @@
 .sibling-fade > *:hover { opacity: 1; transform: scale(1.2); transition-delay: 0ms, 0ms; }
 html { display: flex; height: 100%; }
 body { 
-  background: linear-gradient(grey, white); /* 背景渐变 */
+  background: linear-gradient(#FFFFE0, #FFFFFF); /* 背景渐变 */
   padding: 10px;
   max-width: 40em;
   margin: auto;
 }
-
-#grad1 {
-    height: 200px;
-    background: -webkit-linear-gradient(red, blue); /* Safari 5.1 - 6.0 */
-    background: -o-linear-gradient(red, blue); /* Opera 11.1 - 12.0 */
-    background: -moz-linear-gradient(red, blue); /* Firefox 3.6 - 15 */
-    background: linear-gradient(red, blue); /* 标准的语法（必须放在最后） */
-}
-
-div{margin:30px 0} /* 中部间隔，高30,宽0 */
 
 .sibling-fade {
   display: flex;
@@ -30,29 +20,64 @@ div{margin:30px 0} /* 中部间隔，高30,宽0 */
 }
 .sibling-fade > * {
   background: white;   /* div背景颜色 */
-  padding: 3em;
+  padding: 2em;
   flex: auto;
-  margin: 0.3em;
-  text-align: center;
-  color: #ffffff;
+  margin: 1.5em;
+  font-family:微软雅黑;
+  font-weight:800;
   font-size: 1.5em;
+  text-align: center;
+  vertical-align:middle;
+  color: #EEEEE0;
   text-decoration: none;
-  border-radius:60px;   /* div内部边缘弧度 */
+  text-shadow:rgba(10,10,10,0.5) 1px 2px 2px;
+
+  border-radius:40px;   /* div内部边缘弧度 */
   box-shadow: 10px 10px 5px #888888;   /* div内部元素阴影 */
-  background: linear-gradient(white, grey); /* div内部元素背景 标准的语法（必须放在最后） */
+  background: linear-gradient(white, #FF0000);  /*div内部元素背景 标准的语法（必须放在最后） */
 }
 
 .imgStyle
 {
   opacity:0.4;   /* 图片透明度，值越小越透明 */
   filter:alpha(opacity=40); /* 针对 IE8 以及更早的版本 */
+  position:absolute;left:10px; top:10px
 }
 
 .circle > * {
-  width: 30px;
-  height: 30px;
+  width: 2em;
+  height: 2em;
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
 }
+
+.btn1Position > *{
+  position:absolute;left:20%; top:15%;
+  background: linear-gradient(#FFFFFF, #FFFF00);  /*div内部元素背景 标准的语法（必须放在最后） */
+  }
+.btn2Position > *{
+  position:absolute;left:33%; top:30%;
+  background: linear-gradient(#FFFFFF, #EDEDED);  /*div内部元素背景 标准的语法（必须放在最后） */
+  }
+.btn3Position > *{
+  position:absolute;left:36%; top:3%;
+  background: linear-gradient(#FFFFFF, #FF0000);  /*div内部元素背景 标准的语法（必须放在最后） */
+  }
+.btn4Position > *{
+  position:absolute;left:36%; top:70%;
+  background: linear-gradient(#FFFFFF, #00FFFF);  /*div内部元素背景 标准的语法（必须放在最后） */
+  }
+.btn5Position > *{
+  position:absolute;left:20%; top:50%;
+  background: linear-gradient(#FFFFFF, #FF00FF);  /*div内部元素背景 标准的语法（必须放在最后） */
+  }
+.btn6Position > *{
+  position:absolute;left:52%; top:15%;
+  background: linear-gradient(#FFFFFF, #00FF00);  /*div内部元素背景 标准的语法（必须放在最后） */
+  }
+.btn7Position > *{
+  position:absolute;left:52%; top:50%;
+  background: linear-gradient(#FFFFFF, #0000FF);  /*div内部元素背景 标准的语法（必须放在最后） */
+  }
 /* -- コントロールコンポーネント end -- */
