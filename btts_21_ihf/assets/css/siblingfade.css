@@ -1,0 +1,9 @@
+﻿@charset "utf-8";
+
+.sibling-fade { visibility: hidden; }
+.sibling-fade > * { visibility: visible; }
+.sibling-fade > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
+.sibling-fade:hover > * { opacity: 0.4; transform: scale(0.9); }
+.sibling-fade > *:hover { opacity: 1; transform: scale(1.2); transition-delay: 0ms, 0ms; }
+
+/* -- コントロールコンポーネント end -- */
