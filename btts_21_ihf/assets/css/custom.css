@@ -9,7 +9,7 @@ body {
 
  #wrapper {
     width: 100%;
-    margin-top:50px;
+/*    margin-top:20px;*/
 }
 
 #page-wrapper {
@@ -67,7 +67,8 @@ font-size: 16px;
 }
 .navbar-inverse {
 
-background-color: #214761;
+/*background-color: #214761;*/
+background: linear-gradient(#FFFFFF, #DBDBDB);
 border-color: #F0F0F0;
 min-height: 80px;
 }
@@ -112,11 +113,11 @@ min-height: 80px;
     FOOTER STYLES     
     =============================================*/
 .footer {
-    background-color:#214761;
+    background: linear-gradient(#FFFFFF, #B4CDCD);
     width:100%;
     color:#fff;
-    padding:20px 50px 20px 50px;
-     padding-left:20px;
+    padding:0 0 20px 0;
+    padding-left:200px;
 }
 
 
@@ -131,7 +132,7 @@ min-height: 80px;
  
  @media(min-width:768px) {
      #page-wrapper{
-               margin: 0 0 0 260px;
+        margin: 0 0 0 0;
         padding: 15px 30px;
         min-height: 1050px;
 		

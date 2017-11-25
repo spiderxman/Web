@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+.button{
+  width:100px;
+  height:50px;
+  border-radius:16px;
+  -webkit-border-radius:16px;
+  -moz-border-radius:16px;
+  -o-border-radius:16px;
+  border:2px solid #ccc;
+  position:relative;
+  padding:5px 16px 3px;
+  font-family:Serif;
+  font-weight:800;
+  color:#fff;
+  text-shadow:rgba(10,10,10,0.5) 1px 2px 2px;
+  text-align:center;
+  vertical-align:middle;
+}
+.aqua{
+  background-color:rgba(60,132,198,0.8);
+  background-image:-webkit-gradient(linear,0% 0%,0% 90%,from(rgba(28,91,155,0.8)),to(rgba(108,191,255,.9)));
+  background-image:-moz-linear-gradient(top,rgba(28,91,155,0.8)0%,rgba(108,191,255,.9)90%);
+  background-image:-o-linear-gradient(top,rgba(28,91,155,0.8)0%,rgba(108,191,255,.9)90%);
+  background-image:linear-gradient(to top,rgba(28,91,155,0.8)0%,rgba(108,191,255,0.9)90%);
+  border-color:#8ba2c1 #5890bf #4f93ca #768fa5;
+  
+  -webkit-box-shadow:rgba(66,140,240,0.5) 0px 10px 16px;
+  -moz-box-shadow:rgba(66,140,240,0.5) 0px 10px 16px;
+  -o-box-shadow:rgba(66,140,240,0.5) 0px 10px 16px;
+  box-shadow:rgba(66,140,240,0.5) 0px 10px 16px;
+
+}
+.glare{
+  position:absolute;
+  top:0;
+  left:8px;
+  -webkit-border-radius:8px;
+  -moz-border-radius:8px;
+  -o-border-radius:8px;
+  border-radius:8px;
+  height:2px;
+  width:80px;
+  padding:5px 0;
+  background-color:rgba(255,255,255,0.25)
+  background-image:-webkit-gradient(linear,0% 0%,0% 95%,from(rgba(255,255,255,0.7)),to(rgba(255,255,255,0)));
+  background-image:-moz-linear-gradient(top,rgba(255,255,255,0.7)0%,rgba(255,255,255,0.7)95%);
+  background-image:-o-linear-gradient(top,rgba(255,255,255,0.7)0%,rgba(255,255,255,0.7)95%);
+  background-image:linear-gradient(to top,rgba(255,255,255,0.7)0%,rgba(255,255,255,0.7)95%);
+}
+.btnLogout{
+  position:absolute;left:90%; top:20%;
+}

@@ -1,8 +1,10 @@
+function load_discount() {
+    document.getElementById("viewDiv").innerHTML = '<object type="text/html" data="discount.html" width="100%" height="100%"></object>';
+}
 
-
-
-
-
+function load_app() {
+    document.getElementById("viewDiv").innerHTML = '<object type="text/html" data="app.html" width="100%" height="100%"></object>';
+}
 
 (function ($) {
     "use strict";
