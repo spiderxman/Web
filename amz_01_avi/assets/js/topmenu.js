@@ -100,7 +100,7 @@ document.writeln("                <!-- sub-menu end-->");
 document.writeln("              </li>");
 document.writeln("              <li><a href=\'example.html\'>客户案例</a></li>");
 document.writeln("              <li><a href=\'solution.html\'>解决方案</a></li>");
-document.writeln("              <li><a href=\'news-content.html\'>公司动态</a>");
+document.writeln("              <li><a href=\'news.html\'>公司动态</a>");
 document.writeln("                <!-- sub-menu start-->");
 document.writeln("<!--");
 document.writeln("                <ul class=\'sub-menu\'>");
